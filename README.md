@@ -4,8 +4,9 @@ Graded
 
 ## Marking
 - 80% - drawing the scene with the requirements below
-- 10% - proper indenting is maintained (Tidy your Code and fix your indenting)
-- 10% - proper commenting is included, end of function comments: "} // end draw", what each part of your code does aka //snowman head, //bat body etc
+- 15% - proper indenting is maintained (Tidy your Code and fix your indenting).
+  - proper commenting is included, end of function comments: "} // end draw", what each part of your code does aka //snowman head, //bat body etc
+- 5% - 1 moving item using a variable and if() statement. Look at 10.1.3 adding text for how to do that.  
 
 ## Set Up
 1. Create a canvas that is 700 x 700 with a background of your choice
@@ -46,3 +47,30 @@ Your goal is to draw one of the following things/scenes.
 - Try animating your picture.  Can you make your snowman wave by moving your mouse? Or add a bird that flies across your screen.
 - If you already know how to add images, or figure out how to include a picture as a background.  For example, you could have a winter scene picture behind your snowman.  To do this you do NOT use the background( ) code, you just put the right sized image at 0,0.  Example: image(snowscenePic, 0, 0, 400, 600);
 
+```
+//Link to an easy color picker:
+//https://www.w3schools.com/colors/colors_picker.asp
+
+function setup() {
+createCanvas(300, 400);
+
+
+  rectMode(CENTER);
+}//end setup
+
+function draw() {
+  background(179, 89, 0);
+  fill(221, 153, 255);
+  rect(150, 30, 120, 80, 10);
+  
+  //at least 10 shapes
+  //fill, stroke, strokeWeight
+  //triangle, quad or point (Help... reference)
+  // 3 lines of text
+  
+}//end draw
+function mousePressed(){
+  print(mouseX + ",   " + mouseY);
+}//end mousePressed
+
+```
