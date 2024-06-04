@@ -47,7 +47,7 @@ Your goal is to draw something of your own choice, -or- one of the following thi
 - Try animating your picture.  Can you make your snowman wave by moving your mouse? Or add a bird that flies across your screen.
 - If you already know how to add images, or figure out how to include a picture as a background.  For example, you could have a winter scene picture behind your snowman.  To do this you do NOT use the background( ) code, you just put the right-sized image at 0,0.  Example: `image(snowscenePic, 0, 0, 400, 600);`
 
-```
+```javaScript
 //Link to an easy color picker:
 //https://www.w3schools.com/colors/colors_picker.asp
 
